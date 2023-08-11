@@ -4,9 +4,10 @@
  */
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 /*
- * main - Prints a random number and states wather
+ * main - prints a random number and states wather
  * is positive or negative or zero
  *
  * Return: Always 0.
@@ -22,10 +23,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if(n > 0)
-		Printf("%d is positive\n",n);
+		printf("%d is positive\n",n);
 	else if(n < 0)
-		Printf("%d is negative\n",n);
+		printf("%d is negative\n",n);
 	else
-		Printf("%d is zero\n",n);
+		printf("%d is zero\n",n);
 	return (0);
 }
