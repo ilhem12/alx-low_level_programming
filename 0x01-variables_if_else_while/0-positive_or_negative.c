@@ -3,8 +3,9 @@
 #include <stdio.h>
 /**
  * main - prints a random number and states 
- *
+ * 
  * Return: Always 0.
+ *
  */
 int main(void)
 {
