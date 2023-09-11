@@ -1,17 +1,17 @@
-#include "baby.h"
+#include "dog.h"
 /**
- * init_baby - initialize a variable of type struct baby.
+ * init_dog - initialize a variable of type struct dog.
  * @d: pointer to the adress to initialize.
- * @name: The baby's name'.
- * @age: The baby's age'.
- * @parent: The baby parent's name.
+ * @name: The dog's name'.
+ * @age: The dog's age'.
+ * @owner: The dog owner's name.
  */
-void init_baby(struct baby *d, char *name, float age, char *parent)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d)
 	{
 		d->name = name;
 		d->age = age;
-		d->parent = parent;
+		d->owner = owner;
 	}
 }
